@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as plt
+
 
 def function(x, y):
     return 3*x*x*y
@@ -57,12 +57,3 @@ x = 1
 
 x, y = adams_bashforth_moulton(function, x0, y0, h, x)
 
-"""
-plt.plot(x, y, label = "Adams Bashforth Moulton Method")
-plt.xlabel("x")
-plt.ylabel("y")
-plt.title("Adams Bashforth Moulton Method")
-plt.legend()
-plt.grid()
-plt.show()
-"""

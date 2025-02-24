@@ -14,6 +14,7 @@ def heun(x0, y, h, x):
         x0 = x0 + h
         
         print(f"The value of y at x = {x0:.1f} is {y:.8f}")  
+        print("")
         
 # Initial conditions
 x0 = 0
