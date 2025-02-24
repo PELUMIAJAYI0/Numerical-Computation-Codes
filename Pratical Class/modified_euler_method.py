@@ -3,6 +3,7 @@ def function(x, y):
 
 def modified_euler(x0, y, h, x):
     while x0 < x:
+        
         k1 = function(x0, y)
         
         xk2 = x0 + h / 2 
@@ -12,7 +13,7 @@ def modified_euler(x0, y, h, x):
         
         y = y + h * k2  
         
-        print(f"The value of y at x = {x0:.1f} is {y:.8f}")  
+        print(f"The value of y at x = {x0:.1f} ---> {y:.8f}")  
         print("")
         
         x0 = x0 + h  

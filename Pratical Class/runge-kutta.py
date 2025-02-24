@@ -22,7 +22,8 @@ def runge_kutta(x0, y, x, h):
         
         x0 = x0 + h
         
-        print(f"The value of y at x = {x0:.1f} is {y:.8f}")  
+        print(f"The value of y at x = {x0:.1f} is {y:.8f}") 
+        print("") 
         # print("The value of y at x is: ","%.1f"%x0, " is ", "%.8f"%y)
         """
         print(

@@ -2,7 +2,7 @@ import numpy as np
 
 
 def function(x, y):
-    return 3*x*x*y
+    return -(y+y*y)
 
 def adams_bashforth_moulton(function, x0, y0, h, x):
     n = int((x-x0)/h) #to calculate the number of steps
@@ -14,8 +14,8 @@ def adams_bashforth_moulton(function, x0, y0, h, x):
     y = np.zeros(n+1) #create an array to store the values of y
     y[0] = y0 #set the first value of y
     
-    print(f"The initial conditions are n = 0, x = {x[0]}, y = {y[0]}")
-    print("")
+    #print(f"The initial conditions are n = 0, x = {x[0]}, y = {y[0]}")
+    #print("")
     
     
    #euler's method
@@ -52,7 +52,7 @@ def adams_bashforth_moulton(function, x0, y0, h, x):
     
 x0 = 0
 y0 = 1
-h = 0.1
+h = 0.001
 x = 1
 
 x, y = adams_bashforth_moulton(function, x0, y0, h, x)
