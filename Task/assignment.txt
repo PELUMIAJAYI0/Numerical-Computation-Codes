@@ -4,7 +4,7 @@ Predictor - Adam Bashforth
 Corrector - Adam Moulton’s
 
 
- Write the code for Runge-Kutta
+ Write the code for Runge-Kutta`
 
  Write code for Euler’s Method
 
@@ -20,6 +20,7 @@ and
 yn+3 – yn+2 = -h/24(9f(n+3)+16f(n+2)-5f(n+2)-fn   
 
 to solve the test equation y'=3x^2 
+
 y;y(0)=1. 
 
 Use the exact solution y=e^(x^3 ) to evaluate the values of y1 and y2.
