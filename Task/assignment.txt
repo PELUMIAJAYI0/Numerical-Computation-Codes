@@ -1,0 +1,27 @@
+Write the code for predictor corrector
+
+Predictor - Adam Bashforth
+Corrector - Adam Moulton’s
+
+
+ Write the code for Runge-Kutta
+
+ Write code for Euler’s Method
+
+ Solve 𝑦′ = −𝑦 𝑦(0) = 1 ℎ = 0.001 𝑥 = [0,1] using predictor corrector method
+ Solve 𝑦′ = −𝑥(𝑦 + 𝑦^2) 𝑦(0) = 1 ℎ = 0.001 𝑥 = [0,1] using predictor corrector method
+
+And the practical aspect of the past questions
+
+1a. write a computer program in python language to implement the predictor-corrector pair of the three steps adams methods given as:
+
+yn+3 – yn+2 = -h/12(23f(n+2)-16f(n+1)+5fn   
+and 
+yn+3 – yn+2 = -h/24(9f(n+3)+16f(n+2)-5f(n+2)-fn   
+
+to solve the test equation y'=3x^2 
+y;y(0)=1. 
+
+Use the exact solution y=e^(x^3 ) to evaluate the values of y1 and y2.
+
+b. Compare your result with the Euler’s method yn+1 = yn + hf_n by computing the absolute errors of each at every node.
